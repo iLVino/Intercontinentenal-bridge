@@ -24,14 +24,14 @@ export async function deployMockToken() {
   const from = getChain(6)
 
   const signer = getWallet(from.chainId)
-  const HT = await new ERC20Mock__factory(signer).deploy("HelloToken", "HT")
+  const HT = await new ERC20Mock__factory(signer).deploy("EncodeParis", "EP")
   await HT.deployed()
   console.log(`HT deployed to ${HT.address} on chain ${from.chainId}`)
   deployed.erc20s[6] = [HT.address]
 
   console.log("Minting...")
   await HT.mint(signer.address, ethers.utils.parseEther("10")).then(wait)
-  console.log("Minted 10 HT to signer")
+  console.log("Minted 10 EP Tokens to signer")
 
   console.log(
     `Attesting tokens with token bridge on chain(s) ${loadConfig()
