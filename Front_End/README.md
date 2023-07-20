@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Frontend Page - Fetch
+
+This is the readme file for the frontend page of the Intercontinental Bridge project. The page is implemented using React and allows users to interact with the blockchain using the IPFS protocol.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +72,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Introduction
+
+The Fetch frontend page is part of the Intercontinental Bridge project, enabling users to interact with the blockchain and IPFS through a user-friendly interface. Users can connect their wallets, view wallet connection status, and perform various actions related to token bridging between different chains.
+
+## Getting Started
+
+### Prerequisites
+
+To run this project locally, you need the following tools:
+
+- Node.js (version 16.14.1 or later)
+- npm (version 8.5.0 or later)
+
+### Installation
+
+1. Clone the repository to your local machine using Git.
+
+2. Navigate to the project directory and install the required dependencies:
+
+```bash
+npm install
+```
+
+## Usage
+
+To use the Fetch frontend page, follow these steps:
+
+1. Make sure you have the backend and smart contract components of the Intercontinental Bridge project set up and running.
+
+2. Connect your wallet using the provided options on the page.
+
+3. Once your wallet is connected, you can view the connection status and other relevant information.
+
+4. Enter the amount you want to bridge in the "Enter Amount to Bridge" input field.
+
+5. Click the "Bridge Token to Moonbeam" button to initiate the token bridging process (Note: This feature is currently commented out in the
